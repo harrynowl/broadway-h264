@@ -29,9 +29,9 @@ async function build() {
     // '-sNO_BROWSER=1',
     // '-sCORRECT_SIGNS=1',
     // '-sCORRECT_OVERFLOWS=1',
-    '-sINITIAL_MEMORY=' + (50*1024*1024).toString(), // 50M
+    '-sINITIAL_MEMORY=' + (256*1024*1024).toString(), // 256M
     // '-sFAST_MEMORY=' + str(50*1024*1024),
-    '-sALLOW_MEMORY_GROWTH=1',
+    '-sALLOW_MEMORY_GROWTH=0',
     '-sINVOKE_RUN=0',
     // '-sRELOOP=1',
     // '-sINLINING_LIMIT=50',
