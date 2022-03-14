@@ -25,6 +25,7 @@ async function build() {
     // '--llvm-lto', '3',
     '-sNO_EXIT_RUNTIME=1',
     '-sNO_FILESYSTEM=1',
+    '-sSINGLE_FILE=1',
     // '-sNO_BROWSER=1',
     // '-sCORRECT_SIGNS=1',
     // '-sCORRECT_OVERFLOWS=1',
